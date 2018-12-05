@@ -30,7 +30,7 @@ android {
     applicationVariants.all { variant ->
         if (variant.buildType.name == 'release') {
             variant.outputs.all {
-                def apkName = "玩个球_v${defaultConfig.versionName}_${versionTime()}_${buildType.name}"
+                def apkName = "跳球高手_v${defaultConfig.versionName}_${versionTime()}_${buildType.name}"
                 outputFileName = apkName + ".apk"
             }
         }
